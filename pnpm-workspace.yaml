@@ -9,3 +9,8 @@ onlyBuiltDependencies:
   - esbuild
   - rolldown
   - simple-git-hooks
+
+minimumReleaseAge: 4320
+minimumReleaseAgeExclude:
+  - vite-plus
+  - '@voidzero-dev/*'
