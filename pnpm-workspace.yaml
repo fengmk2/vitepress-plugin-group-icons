@@ -9,3 +9,16 @@ onlyBuiltDependencies:
   - esbuild
   - rolldown
   - simple-git-hooks
+
+blockExoticSubdeps: false
+minimumReleaseAge: 60
+minimumReleaseAgeExclude:
+  - vite-plus
+  - '@voidzero-dev/*'
+  - '@oxc-project/*'
+  - '@oxlint/*'
+  - oxlint
+  - oxfmt
+  - oxlint-tsgolint
+  - vitest
+  - '@vitest/*'
